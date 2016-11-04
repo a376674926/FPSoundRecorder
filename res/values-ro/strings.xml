@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">"Procesor de sunete"</string>
+  <string name="recording">"Înregistrare în curs"</string>
+  <string name="recording_stopped">"Înregistrarea s-a întrerupt"</string>
+  <string name="storage_is_full">"Capacitatea maximă de stocare este atinsă."</string>
+  <string name="max_length_reached">"Lungime maximă atinsă"</string>
+  <string name="insert_sd_card">"Cardul SD este cerut."</string>
+  <string name="button_ok">"OK"</string>
+  <string name="timer_format">
+    <xliff:g id="format">%02d</xliff:g>:
+    <xliff:g id="format">%02d</xliff:g>
+  </string>
+  <string name="audio_db_title_format">
+    <xliff:g id="format">aaaa-LL-zz HH:mm:ss</xliff:g>
+  </string>
+  <string name="audio_db_artist_name">"Înregistrările dumneavoastră"</string>
+  <string name="audio_db_album_name">"Înregistrări audio"</string>
+  <string name="audio_db_playlist_name">"Înregistrările mele"</string>
+  <string name="error_sdcard_access">"Incapabil să acceseze stocarea externă sau internă"</string>
+  <string name="error_app_internal">"Eroare aplicație internă"</string>
+  <string name="error_mediadb_new_record">"Incapabil să salveze înregistrările audio"</string>
+  <string name="default_record_name">"înregistrare nedenumită"</string>
+  <string name="menu_view_record_list">"Vezi lista cu înregistrări"</string>
+  <string name="menu_setting">"Setări"</string>
+  <string name="delete_dialog_title">"Doriți să ștergeți înregistrarea curentă?"</string>
+  <string name="overwrite_dialog_title">"%s has deja există. Doriți s-o rescrieți?"</string>
+  <string name="preferences_title">"Setări"</string>
+  <string name="pref_title_record_type">"Înregistrare tip fișier"</string>
+  <string name="prefDialogTitle_recordType">"Vă rugăm selectați tipul de fișier."</string>
+  <string name="prefDefault_recordType">"audio/3gpp"</string>
+  <string name="pref_title_enable_high_quality">"Activează calitate ridicată"</string>
+  <string name="pref_summary_enable_high_quality">"Fișierul audio de calitate ridicată poate fi mai mare."</string>
+  <string name="pref_title_enable_sound_effect">"Activează efect de sunet"</string>
+  <string name="pref_summary_enable_sound_effect">"Redă efectul de sunet atunci când starea s-a schimbat"</string>
+  <string name="notification_recording">"Înregistrare în curs..."</string>
+  <string name="notification_stopped">"Înregistrarea s-a întrerupt"</string>
+  <string name="notification_warning">"Capacitate redusă de stocare (mai puțin de %d minute)..."</string>
+  <string name="sd_card_not_available">"Cardul SD nu este disponibil."</string>
+  <string name="open_file_explorer">"Deschide explorator fișier"</string>
+  <string name="alert_message_delete_record">"Doriți să ștergeți înregistrarea selectată?"</string>
+  <string-array name="prefEntries_recordType">
+    <item>"amr"</item>
+    <item>"3gpp"</item>
+  </string-array>
+  <string name="storage_internal">"Stocare internă"</string>
+  <string name="storage_sd_card">"Card SD"</string>
+  <string name="pref_title_storage_path">"Cale stocare"</string>
+  <string name="pref_dialog_title_storage_path">"Vă rugăm selectați calea de stocare"</string>
+  <string name="menu_record_list">"Listă fișier"</string>
+  <string name="dialog_title_record_list">"Listă fișier"</string>
+  <string name="no_record_list">"Niciun fișier!"</string>
+  <string name="open_error">"Eroare deschidere fișier!"</string>
+  <string name="storage_invalid">"Dispozitivul de stocare nu este disponibil!"</string>
+  <string name="max_input_title">"S-a atins limita maximă de caractere"</string>
+  <string name="text_input_max_limit">Introducerea caracterelor a atins limita maximă de
+    <xliff:g id="TEXT_MAX_LIMIT">%1$s</xliff:g> caractere
+  </string>
+  <string name="recording_high_quality">"Înregistrare audio calitate ridicată…"</string>
+  <string name="offhook_record_warn">"Momentan ocupat la telefon, nu poți folosi funcția de înregistrare, vă rugăm folosiți funcția de înregistrare a telefonului!"</string>
+  <string name="no_record_file">"Niciun fișier audio!"</string>
+  <string name="action_bar_menu_select_all">"Selectează tot"</string>
+  <string name="action_bar_menu_unselect_all">"Anulare"</string>
+  <string name="hour">"h"</string>
+  <string name="minute">"m"</string>
+  <string name="second">"s"</string>
+  <string name="delete_record_file">"Ștergerea fișierului înregistrat"</string>
+  <string name="set_as_ringtone">"Setează ca ton de apel"</string>
+  <string name="share">"Partajează înregistrare"</string>
+  <string name="item_detail">"Detaliu înregistrare"</string>
+  <string name="delete_file_warn">"Sunteți sigur că doriți să ștergeți fișierul audio selectat?"</string>
+  <string name="delete_succ_warn">Ștergere numărare articole realizată cu succes:
+    <xliff:g>%1$s</xliff:g>
+  </string>
+  <string name="delete_fail_warn">Ștergere numărare articole eșuată:
+    <xliff:g>%1$s</xliff:g>
+  </string>
+  <string name="ringtone_set">Deja setat “
+    <xliff:g>%s</xliff:g>” ca ton de apel
+  </string>
+  <string name="file_size">"%d byte"</string>
+  <string name="file_info_location">"Locație fișier:"</string>
+  <string name="file_info_size">"Dimensiune fișier:"</string>
+  <string name="file_info_date">"Timp de înregistrare:"</string>
+  <string name="file_info_type">"Tip fișier:"</string>
+  <string name="file_info_type_unknow">"tip necunoscut"</string>
+  <string name="delete">"Ștergere"</string>
+  <string name="cancel">"Anulare"</string>
+  <string name="search">"Căutare"</string>
+  <string name="not_support_background_record_warn">"Nu suportă rulare fundal, opriți înregistrarea!"</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:splitMotionEvents="false" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0px"
+        android:background="@android:color/darker_gray"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="@string/recording_file_list"
+        android:textColor="@color/normalFgColor"
+        android:textSize="45.0sp" />
+
+    <ListView
+        android:id="@+id/recording_file_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_layout"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40.0px" />
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/no_recording_file"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:textDirection="5"
+        android:textSize="45.0sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/divider_img"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/divider_horizontal_dark"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"錄音程式"</string>
+    <string name="recording" msgid="4426791467211376099">"錄音中"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"停止錄音"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"儲存空間已滿"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"已達長度上限"</string>
+    <string name="insert_sd_card" msgid="2251831579676114197">"需要SD卡才可使用"</string>
+    <string name="button_ok" msgid="3004911343723076226">"確定"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"您的錄音"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"錄音"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"我的錄音"</string>
+    <string name="error_sdcard_access" msgid="8005660724361043509">"無法訪問存儲設備"</string>
+    <string name="error_app_internal" msgid="2365923237657572011">"內部應用程式錯誤"</string>
+    <string name="error_mediadb_new_record" msgid="2225774949947938064">"無法儲存錄製的音訊"</string>
+
+    <string name="default_record_name">未命名錄音</string>
+    <string name="menu_view_record_list">查看錄音列表</string>
+    <string name="menu_setting">設置</string>
+    <string name="delete_dialog_title">您確定要刪除這段錄音嗎？</string>
+    <string name="overwrite_dialog_title">%s已存在。\n確定要覆蓋這段錄音嗎？</string>
+    <string name="preferences_title">錄音機設置</string>
+    <string name="pref_title_record_type">錄音文件類型</string>
+    <string name="prefDialogTitle_recordType">請選擇錄音文件類型</string>
+    <string name="pref_title_enable_high_quality">使用高質量錄音</string>
+    <string name="pref_summary_enable_high_quality">高質量錄音會增大錄音文件</string>
+    <string name="pref_title_enable_sound_effect">打開音效</string>
+    <string name="pref_summary_enable_sound_effect">操作錄音機時播放音效</string>
+    <string name="notification_recording">正在錄音...</string>
+    <string name="notification_stopped">錄音已終止</string>
+    <string name="notification_warning">存儲空間不足(小於%d分鐘)</string>
+    <string name="sd_card_not_available">SD卡不存在</string>
+    <string name="open_file_explorer">打開文件夾</string>
+    <string name="alert_message_delete_record">確認要刪除所選的錄音嗎?</string>
+    <string name="storage_internal">內部存儲</string>
+    <string name="storage_sd_card">SD 卡</string>
+    <string name="pref_title_storage_path">存儲路徑</string>
+    <string name="pref_dialog_title_storage_path">請選擇存儲路徑</string>
+    <string name="menu_record_list">錄音列表</string>
+    <string name="dialog_title_record_list">錄音列表</string>
+    <string name="no_record_list">沒有錄音文件！</string>
+    <string name="open_error">無法打開錄音文件！</string>
+    <string name="storage_invalid">存儲設備不可用</string>
+    <string name="max_input_title">已達輸入上限</string>
+    <string name="text_input_max_limit">"最多只能輸入<xliff:g id="TEXT_MAX_LIMIT">%1$s</xliff:g>個字符！"</string>
+    <string name="recording_high_quality">正在錄制高音質音頻...</string>
+    <string name="offhook_record_warn">當前正在通話，不能使用錄音機功能，如需錄音請使用通話界面的錄音功能！</string>
+    <string name="no_record_file">沒有錄音文件</string>
+    <string name="action_bar_menu_select_all">全選</string>
+    <string name="action_bar_menu_unselect_all">取消全選</string>
+    <string name="hour">時</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+    <string name="delete_record_file">刪除錄音</string>
+    <string name="set_as_ringtone">設置為鈴聲</string>
+    <string name="share">分享錄音</string>
+    <string name="item_detail">錄音詳情</string>
+    <string name="delete_file_warn">確定要刪除已選錄音嗎？</string>
+    <string name="delete_succ_warn">已經成功刪除<xliff:g >%1$s</xliff:g>項！</string>
+    <string name="delete_fail_warn">刪除失敗<xliff:g >%1$s</xliff:g>項！</string>
+    <string name="ringtone_set">"已將“<xliff:g >%s</xliff:g>”設為手機鈴聲。"</string>
+    <string name="file_size">%d 字節</string>
+    <string name="file_info_location">文件位置:</string>
+    <string name="file_info_size">文件大小:</string>
+    <string name="file_info_date">錄制時間:</string>
+    <string name="file_info_type">文件類型:</string>
+    <string name="file_info_type_unknow">未知文件類型</string>
+    <string name="delete">刪除</string>
+    <string name="cancel">取消</string>
+    <string name="search">查找</string>
+    <string name="not_support_background_record_warn">不支持後臺錄音，錄音已停止!</string>
+    <string name="not_access_file_name">輸入含有非法字符!</string>
+    <string name="no_recording_file">(沒有錄音文件)</string>
+    <string name="recording_file_list">錄音文件</string>
+</resources>

@@ -1,0 +1,1 @@
+-keep class cn.gosomo.soundrecorder.RecordFileListActivity$RecordFileListFragment

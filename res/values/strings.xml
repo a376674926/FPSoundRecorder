@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- application name and title of error dialogs -->
+    <string name="app_name">Sound Recorder</string>
+
+    <!-- Screen title before and during recording -->
+    <!-- Screen title after recording -->
+    <!-- Screen title while playing back a recording -->
+    <!-- Label shown during recording -->
+    <string name="recording">Recording</string>
+    <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
+    <string name="recording_stopped">Recording stopped</string>
+    <!-- label shown when there is not enough space to record something -->
+    <string name="storage_is_full">Storage is full</string>
+    <!-- label shown when the recording has reached maximum allowed file size -->
+    <string name="max_length_reached">Maximum length reached</string>
+    <!-- label shown when there is no sd card available to record to -->
+    <string name="insert_sd_card">SD card is required</string>
+    <!-- label shown when there is more than 1 minute but less than 9 minutes of space left to record -->
+    <!-- label shown when there is less than 1 minute of space left to record -->
+
+
+    <!-- button to accept the current recording and return it to the caller -->
+    <!-- button to discard the current recording and return to the caller -->
+    <!-- acknowlegement button in a number of dialogs -->
+    <string name="button_ok">OK</string>
+    <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
+    <string name="timer_format"><xliff:g id="format">%02d</xliff:g>:<xliff:g id="format">%02d</xliff:g></string>
+    <!-- label shown before the user has recorded anything -->
+
+
+    <!-- the name under which recordings will be visible in the media database is formatted like this -->
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <!-- all recordings will show up in the media database with this 'artist' name -->
+    <string name="audio_db_artist_name">Your recordings</string>
+    <!-- all recordings will show up in the media database with this 'album' name -->
+    <string name="audio_db_album_name">Audio recordings</string>
+    <!-- all recordings will show up in the media database in a playlist with this name -->
+    <string name="audio_db_playlist_name">My recordings</string>
+    <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
+    <string name="error_sdcard_access">Unable to access external or internal storage</string>
+    <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
+    <string name="error_app_internal">Internal application error</string>
+    <!-- shown as the message in a dialog when the recording could not be added to the media database -->
+    <string name="error_mediadb_new_record">Unable to save recorded audio</string>
+
+    <!-- add for libra begin -->
+    <string name="default_record_name">untitled_record</string>
+    <string name="menu_view_record_list">View record list</string>
+    <string name="menu_setting">Settings</string>
+    <string name="delete_dialog_title">Do you want to delete current record?</string>
+    <string name="overwrite_dialog_title">%s has already existed. Do you want to overwrite it?</string>
+    <string name="preferences_title">Settings</string>
+    <string name="pref_title_record_type">Record file type</string>
+    <string name="prefDialogTitle_recordType">Please select file type</string>
+    <string name="prefDefault_recordType">audio/3gpp</string>
+    <string name="pref_title_enable_high_quality">Enable high quality</string>
+    <string name="pref_summary_enable_high_quality">The audio file with high quality can be larger</string>
+    <string name="pref_title_enable_sound_effect">Enable sound effect</string>
+    <string name="pref_summary_enable_sound_effect">Playing sound effect when the state is changed</string>
+    <string name="notification_recording">Recording...</string>
+    <string name="notification_stopped">Recording is stopped</string>
+    <string name="notification_warning">Low storage(less than %d minutes)...</string>
+    <string name="sd_card_not_available">SD card is not available</string>
+    <string name="open_file_explorer">Open file explorer</string>
+    <string name="alert_message_delete_record">Do you want to delete selected record?</string>
+
+    <string-array name="prefEntries_recordType">
+        <item>amr</item>
+        <item>3gpp</item>
+    </string-array>
+    <string-array name="prefValues_recordType" translatable="false">
+        <item>audio/amr</item>
+        <item>audio/3gpp</item>
+    </string-array>
+    <!-- add for libra end -->
+    <string name="storage_internal">Internal storage</string>
+    <string name="storage_sd_card">SD card</string>
+    <string name="pref_title_storage_path">Storage path</string>
+    <string name="pref_dialog_title_storage_path">Please select the storage path</string>
+    <string name="menu_record_list">File list</string>
+    <string name="dialog_title_record_list">File list</string>
+    <string name="no_record_list">No file！</string>
+    <string name="open_error">Open file error!</string>
+    <string name="storage_invalid">Storage device is unavailable!</string>
+    <string name="max_input_title">Reached Input Limit</string>
+    <string name="text_input_max_limit">"Your input has reached the maximum limit of <xliff:g id="TEXT_MAX_LIMIT">%1$s</xliff:g> characters！"</string>
+    <string name="recording_high_quality">Recording high quality audio...</string>
+    <string name="offhook_record_warn">Currently on a call, you can not use the recorder function,please use the Phone record function！</string>
+    <string name="no_record_file">No audio file!</string>
+    <string name="action_bar_menu_select_all">Select all</string>
+    <string name="action_bar_menu_unselect_all">Cancel</string>
+    <string name="hour">h</string>
+    <string name="minute">m</string>
+    <string name="second">s</string>
+    <string name="delete_record_file">Delete recording file</string>
+    <string name="set_as_ringtone">Set as ringtone</string>
+    <string name="share">Share recording</string>
+    <string name="item_detail">Recording detail</string>
+    <string name="delete_file_warn">Are you sure you want to delete the selected audio file？</string>
+    <string name="delete_succ_warn">Delete successfully item count:<xliff:g>%1$s</xliff:g></string>
+    <string name="delete_fail_warn">Delete failed item count:<xliff:g>%1$s</xliff:g></string>
+    <string name="ringtone_set">"Already set “<xliff:g>%s</xliff:g>” as ringtone"</string>
+    <string name="file_size">%d byte</string>
+    <string name="file_info_location">File location:</string>
+    <string name="file_info_size">File size:</string>
+    <string name="file_info_date">Record time:</string>
+    <string name="file_info_type">File type:</string>
+    <string name="file_info_type_unknow">unknow type</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search</string>
+    <string name="not_support_background_record_warn">Not support running background,stop recording!</string>
+    <string name="not_access_file_name">Name contains invalid characters!</string>
+    <string name="tell_save_record_success">Save succeeded</string>
+    <string name="record_your_message">Record your message</string>
+    <string name="message_recorded">Message recorded</string>
+    <string name="review_message">Review message</string>
+    <string name="min_available">%d min available</string>
+    <string name="sec_available">%ds available</string>
+    <string name="accept">Done</string>
+    <string name="discard">Discard</string>
+    <string name="option">Option</string>
+    <string name="back">Back</string>
+    <string name="list">List</string>
+    <string name="operate">Operate</string>
+    <string name="play">Play</string>
+    <string name="no_recording_file">(No recording file)</string>
+    <string name="recording_file_list">File list</string>
+    <string name="soundrecorder_title">录音机</string>
+    <string name="music_list">列表</string>
+
+</resources>

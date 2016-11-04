@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">"Звукозапись"</string>
+  <string name="recording">"Запись"</string>
+  <string name="recording_stopped">"Запись остановлена"</string>
+  <string name="storage_is_full">"Память накопителя заполнена"</string>
+  <string name="max_length_reached">"Достигнута максимальная длина"</string>
+  <string name="insert_sd_card">"Требуется SD-карта"</string>
+  <string name="button_ok">"ОК"</string>
+  <string name="timer_format">
+    <xliff:g id="format">%02d</xliff:g>:
+    <xliff:g id="format">%02d</xliff:g>
+  </string>
+  <string name="audio_db_title_format">
+    <xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g>
+  </string>
+  <string name="audio_db_artist_name">"Ваши записи"</string>
+  <string name="audio_db_album_name">"Аудиозаписи"</string>
+  <string name="audio_db_playlist_name">"Мои записи"</string>
+  <string name="error_sdcard_access">"Нет доступа к внешнему или внутреннему накопителю"</string>
+  <string name="error_app_internal">"Внутренняя ошибка приложения"</string>
+  <string name="error_mediadb_new_record">"Не удалось сохранить записанное аудио"</string>
+  <string name="default_record_name">"запись без названия"</string>
+  <string name="menu_view_record_list">"Просмотреть список записей"</string>
+  <string name="menu_setting">"Настройки"</string>
+  <string name="delete_dialog_title">"Хотите удалить текущую запись?"</string>
+  <string name="overwrite_dialog_title">"%s has уже существует. Хотите перезаписать ее?"</string>
+  <string name="preferences_title">"Настройки"</string>
+  <string name="pref_title_record_type">"Тип файла записи"</string>
+  <string name="prefDialogTitle_recordType">"Выберите тип файла"</string>
+  <string name="prefDefault_recordType">"audio/3gpp"</string>
+  <string name="pref_title_enable_high_quality">"Включить высокое качество"</string>
+  <string name="pref_summary_enable_high_quality">"Аудиофайл в высоком качестве может иметь больший размер."</string>
+  <string name="pref_title_enable_sound_effect">"Включить звуковой эффект"</string>
+  <string name="pref_summary_enable_sound_effect">"Воспроизведение звукового эффекта при изменении состояния"</string>
+  <string name="notification_recording">"Идет запись..."</string>
+  <string name="notification_stopped">"Запись остановлена"</string>
+  <string name="notification_warning">"Недостаточно места на накопителе (менее %d мин)..."</string>
+  <string name="sd_card_not_available">"SD-карта недоступна"</string>
+  <string name="open_file_explorer">"Открыть проводник"</string>
+  <string name="alert_message_delete_record">"Хотите удалить выбранную запись?"</string>
+  <string-array name="prefEntries_recordType">
+    <item>"amr"</item>
+    <item>"3gpp"</item>
+  </string-array>
+  <string name="storage_internal">"Внутренний накопитель"</string>
+  <string name="storage_sd_card">"SD-карта"</string>
+  <string name="pref_title_storage_path">"Путь к накопителю"</string>
+  <string name="pref_dialog_title_storage_path">"Выберите путь к накопителю"</string>
+  <string name="menu_record_list">"Список файлов"</string>
+  <string name="dialog_title_record_list">"Список файлов"</string>
+  <string name="no_record_list">"Нет файлов!"</string>
+  <string name="open_error">"Ошибка открытия файла!"</string>
+  <string name="storage_invalid">"Устройство накопителя недоступно!"</string>
+  <string name="max_input_title">"Достигнут предел ввода"</string>
+  <string name="text_input_max_limit">Достигнут максимальный предел ввода,
+    <xliff:g id="TEXT_MAX_LIMIT">%1$s</xliff:g>количество символов.
+  </string>
+  <string name="recording_high_quality">"Запись аудио в высоком качестве..."</string>
+  <string name="offhook_record_warn">"Во время вызова вы не можете использовать функцию записи, воспользуйтесь функцией записи на телефоне!"</string>
+  <string name="no_record_file">"Нет аудиофайлов!"</string>
+  <string name="action_bar_menu_select_all">"Выбрать все"</string>
+  <string name="action_bar_menu_unselect_all">"Отмена"</string>
+  <string name="hour">"ч"</string>
+  <string name="minute">"мин"</string>
+  <string name="second">"с"</string>
+  <string name="delete_record_file">"Удалить файл записи"</string>
+  <string name="set_as_ringtone">"Установить как мелодию звонка"</string>
+  <string name="share">"Поделиться записью"</string>
+  <string name="item_detail">"Сведения о записи"</string>
+  <string name="delete_file_warn">"Действительно удалить выбранный аудиофайл?"</string>
+  <string name="delete_succ_warn">Успешно удалено такое количество элементов:
+    <xliff:g>%1$s</xliff:g>
+  </string>
+  <string name="delete_fail_warn">Сбой удаления такого количества файлов:
+    <xliff:g>%1$s</xliff:g>
+  </string>
+  <string name="ringtone_set">Запись «
+    <xliff:g>%s</xliff:g>» уже установлена как мелодия звонка
+  </string>
+  <string name="file_size">"%d байт"</string>
+  <string name="file_info_location">"Расположение файла:"</string>
+  <string name="file_info_size">"Размер файла:"</string>
+  <string name="file_info_date">"Время записи:"</string>
+  <string name="file_info_type">"Тип файла:"</string>
+  <string name="file_info_type_unknow">"неизвестный тип"</string>
+  <string name="delete">"Удалить"</string>
+  <string name="cancel">"Отмена"</string>
+  <string name="search">"Поиск"</string>
+  <string name="not_support_background_record_warn">"Работа в фоновом режиме не поддерживается, остановите запись."</string>
+</resources>

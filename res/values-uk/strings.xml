@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">"Запис звуку"</string>
+  <string name="recording">"Запис"</string>
+  <string name="recording_stopped">"Запис зупинено"</string>
+  <string name="storage_is_full">"Немає вільного місця"</string>
+  <string name="max_length_reached">"Досягнуто максимальної довжини"</string>
+  <string name="insert_sd_card">"Вимагається карта SD"</string>
+  <string name="button_ok">"OK"</string>
+  <string name="timer_format">
+    <xliff:g id="format">%02d</xliff:g>:
+    <xliff:g id="format">%02d</xliff:g>
+  </string>
+  <string name="audio_db_title_format">
+    <xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g>
+  </string>
+  <string name="audio_db_artist_name">"Ваші записи"</string>
+  <string name="audio_db_album_name">"Аудіозаписи"</string>
+  <string name="audio_db_playlist_name">"Мої записи"</string>
+  <string name="error_sdcard_access">"Не вдається отримати доступ до зовнішньої чи внутрішньої пам\'яті"</string>
+  <string name="error_app_internal">"Внутрішня помилка додатку"</string>
+  <string name="error_mediadb_new_record">"Не вдається зберегти аудіозапис"</string>
+  <string name="default_record_name">"Запис без назви"</string>
+  <string name="menu_view_record_list">"Перегляд списку записів"</string>
+  <string name="menu_setting">"Установки"</string>
+  <string name="delete_dialog_title">"Ви дійсно бажаєте видалити поточний запис?"</string>
+  <string name="overwrite_dialog_title">"%s has вже існує. Ви дійсно бажаєте перезаписати його?"</string>
+  <string name="preferences_title">"Установки"</string>
+  <string name="pref_title_record_type">"Запис типу файлу"</string>
+  <string name="prefDialogTitle_recordType">"Виберіть, будь ласка, тип файлу"</string>
+  <string name="prefDefault_recordType">"аудіо/3gpp"</string>
+  <string name="pref_title_enable_high_quality">"Включити високу якість"</string>
+  <string name="pref_summary_enable_high_quality">"Аудіо файли високої якості можуть бути більшими"</string>
+  <string name="pref_title_enable_sound_effect">"Включити звуковий ефект"</string>
+  <string name="pref_summary_enable_sound_effect">"Зміна статусу супроводжується звуковим ефектом"</string>
+  <string name="notification_recording">"Запис..."</string>
+  <string name="notification_stopped">"Запис зупинено"</string>
+  <string name="notification_warning">"Недостатньо пам\'яті (менше ніж %d хвилин)..."</string>
+  <string name="sd_card_not_available">"Карта SD недоступна"</string>
+  <string name="open_file_explorer">"Відкрити провідник"</string>
+  <string name="alert_message_delete_record">"Ви дійсно бажаєте видалити вибраний запис?"</string>
+  <string-array name="prefEntries_recordType">
+    <item>"AMR "</item>
+    <item>"3gpp"</item>
+  </string-array>
+  <string name="storage_internal">"Внутрішня пам\'ять"</string>
+  <string name="storage_sd_card">"Карта SD"</string>
+  <string name="pref_title_storage_path">"Шлях збереження"</string>
+  <string name="pref_dialog_title_storage_path">"Виберіть, будь ласка, шлях збереження"</string>
+  <string name="menu_record_list">"Список файлів"</string>
+  <string name="dialog_title_record_list">"Список файлів"</string>
+  <string name="no_record_list">"Немає файлу"</string>
+  <string name="open_error">"Відкрити помилку файлу!"</string>
+  <string name="storage_invalid">"Пристрій пам\'яті відсутній!"</string>
+  <string name="max_input_title">"Досягнуто межі введення"</string>
+  <string name="text_input_max_limit">Введення досягло максимальної кількості
+    <xliff:g id="TEXT_MAX_LIMIT">%1$s</xliff:g> знаків！
+  </string>
+  <string name="recording_high_quality">"Запис високоякісного аудіо..."</string>
+  <string name="offhook_record_warn">"Під час розмови ви не можете використовувати функцію запису, будь ласка, використовуйте функцію запису телефону！"</string>
+  <string name="no_record_file">"Немає аудіофайлу!"</string>
+  <string name="action_bar_menu_select_all">"Вибрати все"</string>
+  <string name="action_bar_menu_unselect_all">"Відмінити"</string>
+  <string name="hour">"год"</string>
+  <string name="minute">"хв"</string>
+  <string name="second">"сек"</string>
+  <string name="delete_record_file">"Видалити записаний файл"</string>
+  <string name="set_as_ringtone">"Встановити як рингтон"</string>
+  <string name="share">"Поділитися записом"</string>
+  <string name="item_detail">"Деталі запису"</string>
+  <string name="delete_file_warn">"Ви дійсно хочете видалити вибраний аудіофайл？"</string>
+  <string name="delete_succ_warn">Успішно видалено кількість елементів:
+    <xliff:g>%1$s</xliff:g>
+  </string>
+  <string name="delete_fail_warn">Не вдалося видалити кількість елементів:
+    <xliff:g>%1$s</xliff:g>
+  </string>
+  <string name="ringtone_set">Вже встановлено “
+    <xliff:g>%s</xliff:g>” як рингтон
+  </string>
+  <string name="file_size">"%d байт"</string>
+  <string name="file_info_location">"Розташування файлу:"</string>
+  <string name="file_info_size">"Розмір файлу:"</string>
+  <string name="file_info_date">"Час запису:"</string>
+  <string name="file_info_type">"Тип файлу:"</string>
+  <string name="file_info_type_unknow">"Невідомий тип"</string>
+  <string name="delete">"Видалити"</string>
+  <string name="cancel">"Відмінити"</string>
+  <string name="search">"Шукати"</string>
+  <string name="not_support_background_record_warn">"Не підтримує поточне шумове оформлення, зупинити запис!"</string>
+</resources>

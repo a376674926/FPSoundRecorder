@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/whole_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:background="@drawable/screen_bg"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/divider_horizontal_dark"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/timerViewLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="242.0dip"
+            android:splitMotionEvents="false" >
+
+            <TextView
+                android:id="@+id/timerView"
+                style="@android:style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/black"
+                android:textDirection="5"
+                android:textSize="112.0dip" />
+
+            <LinearLayout
+                android:id="@+id/recordfileMessage2Layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/timerView"
+                android:layout_centerHorizontal="true"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:splitMotionEvents="false" >
+
+                <ImageView
+                    android:id="@+id/currState"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/recordingFileName"
+                    style="@android:style/TextAppearance.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5.0px"
+                    android:singleLine="false"
+                    android:textDirection="5"
+                    android:textSize="26.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/stateMessage2Layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/timerView"
+                android:layout_centerHorizontal="true"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:splitMotionEvents="false"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/stateLED"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/stateMessage2"
+                    style="@android:style/TextAppearance.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5.0px"
+                    android:text="@string/recording"
+                    android:textDirection="5" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/stateMessage1"
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/stateMessage2Layout"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:textDirection="5" />
+
+            <TextView
+                android:id="@+id/save_success_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:background="@drawable/success_bg"
+                android:gravity="center"
+                android:text="@string/tell_save_record_success"
+                android:textColor="@android:color/black"
+                android:textSize="45.0sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:splitMotionEvents="false"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:splitMotionEvents="false" >
+
+                <ImageView
+                    android:id="@+id/firstLine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@android:drawable/divider_horizontal_dark" />
+
+                <LinearLayout
+                    android:id="@+id/exitButtons"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/firstLine"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/linearLayoutGrayColor"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:splitMotionEvents="false"
+                    android:visibility="gone" >
+
+                    <Button
+                        android:id="@+id/discardButton"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="55.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/discard" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitXY"
+                        android:src="@android:drawable/divider_horizontal_dark" />
+
+                    <Button
+                        android:id="@+id/acceptButton"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="55.0dip"
+                        android:layout_weight="1.0"
+                        android:ellipsize="marquee"
+                        android:singleLine="true"
+                        android:text="@string/accept" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:splitMotionEvents="false" >
+
+                <ImageView
+                    android:id="@+id/secondLine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@android:drawable/divider_horizontal_dark" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/divider_horizontal_dark"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:splitMotionEvents="false"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/buttonParent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:splitMotionEvents="false" >
+
+                <ImageButton
+                    android:id="@+id/recordButton"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:src="@drawable/record" />
+
+                <ImageButton
+                    android:id="@+id/pauseRecordingButton"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:src="@drawable/pause" />
+
+                <ImageButton
+                    android:id="@+id/playButton"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:src="@drawable/play" />
+
+                <ImageButton
+                    android:id="@+id/stopButton"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:src="@drawable/stop" />
+
+                <ImageButton
+                    android:id="@+id/fileListButton"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:src="@drawable/recording_file_list" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

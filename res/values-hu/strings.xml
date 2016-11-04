@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">"Hangrögzítő"</string>
+  <string name="recording">"Hangrögzítés"</string>
+  <string name="recording_stopped">"A hangrögzítés leállt "</string>
+  <string name="storage_is_full">"A tárolóhely megtelt"</string>
+  <string name="max_length_reached">"Elérte a maximális hosszúságot"</string>
+  <string name="insert_sd_card">"SD kártyára van szükség"</string>
+  <string name="button_ok">"OK"</string>
+  <string name="timer_format">
+    <xliff:g id="format">%02d</xliff:g>:
+    <xliff:g id="format">%02d</xliff:g>
+  </string>
+  <string name="audio_db_title_format">
+    <xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g>
+  </string>
+  <string name="audio_db_artist_name">"Az Ön hangfelvételei"</string>
+  <string name="audio_db_album_name">"Audio felvételek"</string>
+  <string name="audio_db_playlist_name">"Az én hangfelvételeim "</string>
+  <string name="error_sdcard_access">"Külső vagy belső tárolót nem lehet elérni "</string>
+  <string name="error_app_internal">"Belső alkalmazás hiba"</string>
+  <string name="error_mediadb_new_record">"Az rögzített hangot nem lehet elmenteni"</string>
+  <string name="default_record_name">"Cím nélküli felvétel"</string>
+  <string name="menu_view_record_list">"A felvételek listájának megtekintése "</string>
+  <string name="menu_setting">"Beállítások"</string>
+  <string name="delete_dialog_title">"Szeretné az aktuális felvételt törölni? "</string>
+  <string name="overwrite_dialog_title">"%s has már létezett. Szeretné felülírni?"</string>
+  <string name="preferences_title">"Beállítások"</string>
+  <string name="pref_title_record_type">"Record fájltípus"</string>
+  <string name="prefDialogTitle_recordType">"Válassza ki a fájltípust"</string>
+  <string name="prefDefault_recordType">"audio/3GPP"</string>
+  <string name="pref_title_enable_high_quality">"Magas minőség engedélyezése"</string>
+  <string name="pref_summary_enable_high_quality">"A magas minőségű audio fájl nagyobb lehet"</string>
+  <string name="pref_title_enable_sound_effect">"Hanghatás engedélyezése"</string>
+  <string name="pref_summary_enable_sound_effect">"Hanghatás lejátszása az állapot változásakor"</string>
+  <string name="notification_recording">"Hangrögzítés..."</string>
+  <string name="notification_stopped">"A rögzítés leállítva"</string>
+  <string name="notification_warning">"Alacsony tároló (kevesebb mint%d perc)..."</string>
+  <string name="sd_card_not_available">"Az SD kártya nem elérhető"</string>
+  <string name="open_file_explorer">"A fájlkezelő megnyitása"</string>
+  <string name="alert_message_delete_record">"Kívánja a kiválasztott felvételt törölni? "</string>
+  <string-array name="prefEntries_recordType">
+    <item>"amr"</item>
+    <item>"3GPP"</item>
+  </string-array>
+  <string name="storage_internal">"Belső tárolás"</string>
+  <string name="storage_sd_card">"SD kártya"</string>
+  <string name="pref_title_storage_path">"Tárhely elérési út"</string>
+  <string name="pref_dialog_title_storage_path">"Válassza ki a tárhely elérési utat"</string>
+  <string name="menu_record_list">"Fájl lista"</string>
+  <string name="dialog_title_record_list">"Fájl lista"</string>
+  <string name="no_record_list">"Nincs fájl!"</string>
+  <string name="open_error">"Fálj megnyitás hiba!"</string>
+  <string name="storage_invalid">"A tároló eszköz nem elérhető!"</string>
+  <string name="max_input_title">"Elérte a beviteli határt"</string>
+  <string name="text_input_max_limit">A bevitel elérte a
+    <xliff:g id="TEXT_MAX_LIMIT">%1$s</xliff:g> charakter maximális határt!
+  </string>
+  <string name="recording_high_quality">"Magas minőségű audio felvétel"</string>
+  <string name="offhook_record_warn">"Hívás közben nem használhatja a felvétel funkciót, kérjük, használja a telefon hangrögzítő funkciót!"</string>
+  <string name="no_record_file">"Nincs audio fájl!"</string>
+  <string name="action_bar_menu_select_all">"Összes kijelölése"</string>
+  <string name="action_bar_menu_unselect_all">"Kilép"</string>
+  <string name="hour">"h"</string>
+  <string name="minute">"m"</string>
+  <string name="second">"s"</string>
+  <string name="delete_record_file">"A felvétel fájl törlése"</string>
+  <string name="set_as_ringtone">"Beállítás csengőhangként "</string>
+  <string name="share">"A felvétel megosztása"</string>
+  <string name="item_detail">"A felvétel részletei"</string>
+  <string name="delete_file_warn">"Biztosan törölni kívánja a kiválasztott audio fájlt?"</string>
+  <string name="delete_succ_warn">A sikeresen törölt elemek száma:
+    <xliff:g>%1$s</xliff:g>
+  </string>
+  <string name="delete_fail_warn">A sikertelen törlések száma:
+    <xliff:g>%1$s</xliff:g>
+  </string>
+  <string name="ringtone_set">Már be van állítva “
+    <xliff:g>%s</xliff:g>” csengőhangként
+  </string>
+  <string name="file_size">"%d bájt"</string>
+  <string name="file_info_location">"A fájl helye:"</string>
+  <string name="file_info_size">"A fájl mérete:"</string>
+  <string name="file_info_date">"A felvétel ideje: "</string>
+  <string name="file_info_type">"A fájl típusa"</string>
+  <string name="file_info_type_unknow">"ismeretlen típus"</string>
+  <string name="delete">"Törlés"</string>
+  <string name="cancel">"Kilép"</string>
+  <string name="search">"Keresés"</string>
+  <string name="not_support_background_record_warn">"A háttér futtatást nem támogatja, állítsa le a felvételt!"</string>
+</resources>

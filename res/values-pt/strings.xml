@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">"Gravar som"</string>
+  <string name="recording">"A gravar"</string>
+  <string name="recording_stopped">"Gravação parada"</string>
+  <string name="storage_is_full">"Memória cheia"</string>
+  <string name="max_length_reached">"Comprimento máximo atingido"</string>
+  <string name="insert_sd_card">"Requer cartão SD"</string>
+  <string name="button_ok">"OK"</string>
+  <string name="timer_format">
+    <xliff:g id="format">%02d</xliff:g>:
+    <xliff:g id="format">%02d</xliff:g>
+  </string>
+  <string name="audio_db_title_format">
+    <xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g>
+  </string>
+  <string name="audio_db_artist_name">"As suas gravações"</string>
+  <string name="audio_db_album_name">"Gravações áudio"</string>
+  <string name="audio_db_playlist_name">"As minhas gravações"</string>
+  <string name="error_sdcard_access">"Incapaz de aceder à memória interna ou externa"</string>
+  <string name="error_app_internal">"Erro interno da aplicação"</string>
+  <string name="error_mediadb_new_record">"Incapaz de guardar audio gravado"</string>
+  <string name="default_record_name">"gravação sem título"</string>
+  <string name="menu_view_record_list">"Visualizar lista de gravação"</string>
+  <string name="menu_setting">"Definições"</string>
+  <string name="delete_dialog_title">"Quer apagar a gravação atual?"</string>
+  <string name="overwrite_dialog_title">"%s has já existente. Quer sobregravar isto?"</string>
+  <string name="preferences_title">"Definições"</string>
+  <string name="pref_title_record_type">"Tipo de ficheiro gravado"</string>
+  <string name="prefDialogTitle_recordType">"Selecione o tipo de ficheiro"</string>
+  <string name="prefDefault_recordType">"áudio/3gpp"</string>
+  <string name="pref_title_enable_high_quality">"ativar alta qualidade"</string>
+  <string name="pref_summary_enable_high_quality">"O ficheiro audio com alta qualidade pode ser maior"</string>
+  <string name="pref_title_enable_sound_effect">"Ativar efeito sonoro"</string>
+  <string name="pref_summary_enable_sound_effect">"Reproduzir efeito sonoro quando o estado é alterado"</string>
+  <string name="notification_recording">"A gravar..."</string>
+  <string name="notification_stopped">"A gravação parou"</string>
+  <string name="notification_warning">"Memória baixa (menos de %d minutos)..."</string>
+  <string name="sd_card_not_available">"Cartão SD indisponível"</string>
+  <string name="open_file_explorer">"Abrir explorador de ficheiros"</string>
+  <string name="alert_message_delete_record">"Quer apagar a gravação selecionada?"</string>
+  <string-array name="prefEntries_recordType">
+    <item>"amr"</item>
+    <item>"3gpp"</item>
+  </string-array>
+  <string name="storage_internal">"Memória interna"</string>
+  <string name="storage_sd_card">"Cartão SD"</string>
+  <string name="pref_title_storage_path">"Caminho de armazenamento"</string>
+  <string name="pref_dialog_title_storage_path">"Selecione o caminho de armazenamento"</string>
+  <string name="menu_record_list">"Lista de ficheiros"</string>
+  <string name="dialog_title_record_list">"Lista de ficheiros"</string>
+  <string name="no_record_list">"Sem ficheiro!"</string>
+  <string name="open_error">"Abrir erro de ficheiro!"</string>
+  <string name="storage_invalid">"Memória do dispositivo indisponível!"</string>
+  <string name="max_input_title">"Limite de entrada atingido"</string>
+  <string name="text_input_max_limit">As suas entradas atingiram o limite máximo de
+    <xliff:g id="TEXT_MAX_LIMIT">%1$s</xliff:g> caracteres!
+  </string>
+  <string name="recording_high_quality">"A graver audio de alta qualidade…"</string>
+  <string name="offhook_record_warn">"A receber uma chamada não pode utilizar a função de gravação, utilize a função de gravação do telefone!"</string>
+  <string name="no_record_file">"Sem ficheiro áudio!"</string>
+  <string name="action_bar_menu_select_all">"Selecionar tudo"</string>
+  <string name="action_bar_menu_unselect_all">"Cancelar"</string>
+  <string name="hour">"h"</string>
+  <string name="minute">"m"</string>
+  <string name="second">"s"</string>
+  <string name="delete_record_file">"Apagar ficheiro de gravação"</string>
+  <string name="set_as_ringtone">"Definir como som de toque"</string>
+  <string name="share">"Partilhar gravação"</string>
+  <string name="item_detail">"Pormenor de gravação"</string>
+  <string name="delete_file_warn">"Tem a certeza de querer eliminar o ficheiro áudio?"</string>
+  <string name="delete_succ_warn">Êxito na eliminação da contagem de item:
+    <xliff:g>%1$s</xliff:g>
+  </string>
+  <string name="delete_fail_warn">Falha na eliminação da contagem de item:
+    <xliff:g>%1$s</xliff:g>
+  </string>
+  <string name="ringtone_set">Já definido “
+    <xliff:g>%s</xliff:g>” como toque
+  </string>
+  <string name="file_size">"%d byte"</string>
+  <string name="file_info_location">"Localização do ficheiro:"</string>
+  <string name="file_info_size">"Tamanho do ficheiro:"</string>
+  <string name="file_info_date">"Tempo de gravação:"</string>
+  <string name="file_info_type">"Tipo de ficheiro:"</string>
+  <string name="file_info_type_unknow">"tipo desconhecido"</string>
+  <string name="delete">"Eliminar"</string>
+  <string name="cancel">"Cancelar"</string>
+  <string name="search">"Pesquisar"</string>
+  <string name="not_support_background_record_warn">"Não suporta funcionamento em segundo plano, parar gravação!"</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">"Registratore di suoni"</string>
+  <string name="recording">"Registrazione"</string>
+  <string name="recording_stopped">"Registrazione interrotta"</string>
+  <string name="storage_is_full">"La memoria è piena"</string>
+  <string name="max_length_reached">"Lunghezza massima raggiunta"</string>
+  <string name="insert_sd_card">"È necessaria una scheda SD"</string>
+  <string name="button_ok">"OK"</string>
+  <string name="timer_format">
+    <xliff:g id="format">%02d</xliff:g>:
+    <xliff:g id="format">%02d</xliff:g>
+  </string>
+  <string name="audio_db_title_format">
+    <xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g>
+  </string>
+  <string name="audio_db_artist_name">"Le tue registrazioni"</string>
+  <string name="audio_db_album_name">"Registrazioni audio"</string>
+  <string name="audio_db_playlist_name">"Le mie registrazioni"</string>
+  <string name="error_sdcard_access">"Impossibile accedere alla memoria esterna o interna"</string>
+  <string name="error_app_internal">"Errore interno dell\'applicazione"</string>
+  <string name="error_mediadb_new_record">"Impossibile salvare l\'audio registrato"</string>
+  <string name="default_record_name">"registrazione senza titolo"</string>
+  <string name="menu_view_record_list">"Visualizza elenco registrazioni"</string>
+  <string name="menu_setting">"Impostazioni"</string>
+  <string name="delete_dialog_title">"Vuoi eliminare la registrazione corrente?"</string>
+  <string name="overwrite_dialog_title">"%s has esisteva già. Vuoi sovrascrivere?"</string>
+  <string name="preferences_title">"Impostazioni"</string>
+  <string name="pref_title_record_type">"Tipo di file di registrazione"</string>
+  <string name="prefDialogTitle_recordType">"Seleziona il tipo di file"</string>
+  <string name="prefDefault_recordType">"audio/3gpp"</string>
+  <string name="pref_title_enable_high_quality">"Abilita alta qualità"</string>
+  <string name="pref_summary_enable_high_quality">"Il file audio di alta qualità può essere più grande"</string>
+  <string name="pref_title_enable_sound_effect">"Abilita effetto sonoro"</string>
+  <string name="pref_summary_enable_sound_effect">"Riproduzione effetto sonoro quando lo stato viene modificato"</string>
+  <string name="notification_recording">"Registrazione..."</string>
+  <string name="notification_stopped">"La registrazione viene interrotta"</string>
+  <string name="notification_warning">"Scarsa memoria(meno di %d minuti)…"</string>
+  <string name="sd_card_not_available">"La scheda SD non è disponibile"</string>
+  <string name="open_file_explorer">"Apri l\'esploratore di file"</string>
+  <string name="alert_message_delete_record">"Vuoi eliminare la registrazione selezionata?"</string>
+  <string-array name="prefEntries_recordType">
+    <item>"amr"</item>
+    <item>"3gpp"</item>
+  </string-array>
+  <string name="storage_internal">"Memoria interna"</string>
+  <string name="storage_sd_card">"Scheda SD"</string>
+  <string name="pref_title_storage_path">"Percorso di archiviazione"</string>
+  <string name="pref_dialog_title_storage_path">"Seleziona il percorso di archiviazione"</string>
+  <string name="menu_record_list">"Elenco dei file"</string>
+  <string name="dialog_title_record_list">"Elenco dei file"</string>
+  <string name="no_record_list">"Nessun file!"</string>
+  <string name="open_error">"Errore apertura file!"</string>
+  <string name="storage_invalid">"Il dispositivo di archiviazione non è disponibile!"</string>
+  <string name="max_input_title">"Raggiunto il limite di inserimento"</string>
+  <string name="text_input_max_limit">I tuoi inserimenti hanno raggiunto il limite massimo di
+    <xliff:g id="TEXT_MAX_LIMIT">%1$s</xliff:g> caratteri！
+  </string>
+  <string name="recording_high_quality">"Registrazione audio di alta qualità..."</string>
+  <string name="offhook_record_warn">"Attualmente in corso una chiamata, non è possibile utilizzare la funzione di registrazione, si prega di utilizzare la funzione di registrazione del telefono!"</string>
+  <string name="no_record_file">"Nessun file audio!"</string>
+  <string name="action_bar_menu_select_all">"Seleziona tutto"</string>
+  <string name="action_bar_menu_unselect_all">"Annulla"</string>
+  <string name="hour">"h"</string>
+  <string name="minute">"m"</string>
+  <string name="second">"s"</string>
+  <string name="delete_record_file">"Elimina file di registrazione"</string>
+  <string name="set_as_ringtone">"Imposta come suoneria"</string>
+  <string name="share">"Condividi registrazione"</string>
+  <string name="item_detail">"Dettaglio della registrazione"</string>
+  <string name="delete_file_warn">"Sei sicuro di voler cancellare il file audio selezionato?"</string>
+  <string name="delete_succ_warn">Eliminazione riuscita del conteggio elementi:
+    <xliff:g>%1$s</xliff:g>
+  </string>
+  <string name="delete_fail_warn">Eliminazione non riuscita del conteggio elementi:
+    <xliff:g>%1$s</xliff:g>
+  </string>
+  <string name="ringtone_set">Già impostato “
+    <xliff:g>%s</xliff:g>” come suoneria
+  </string>
+  <string name="file_size">"%d byte"</string>
+  <string name="file_info_location">"Posizione del file:"</string>
+  <string name="file_info_size">"Dimensione del file:"</string>
+  <string name="file_info_date">"Tempo di registrazione:"</string>
+  <string name="file_info_type">"Tipo di file:"</string>
+  <string name="file_info_type_unknow">"tipo sconosciuto"</string>
+  <string name="delete">"Elimina"</string>
+  <string name="cancel">"Annulla"</string>
+  <string name="search">"Ricerca"</string>
+  <string name="not_support_background_record_warn">"Non supporta l\'esecuzione in background, interrompi la registrazione!"</string>
+</resources>
